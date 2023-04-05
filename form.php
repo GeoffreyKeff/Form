@@ -12,33 +12,33 @@
     <form id="dynamic-form">
         <div id="form-fields">
             <div class="form-field">
-                <input type="text" name="text-field[]" placeholder="Prénom">
+                <input type="text" name="text-field[]" placeholder="Name">
                 <select name="age[]">
-                    <option value="">-- Sélectionnez une catégorie d'âge --</option>
-                    <option value="0-17 ans">0-5 ans</option>
-                    <option value="0-17 ans">6-12 ans</option>
-                    <option value="0-17 ans">13-17 ans</option>
-                    <option value="18-25 ans">18-25 ans</option>
-                    <option value="26-35 ans">26-35 ans</option>
-                    <option value="36-45 ans">36-45 ans</option>
-                    <option value="46-55 ans">46-55 ans</option>
-                    <option value="56 ans et plus">56 ans et plus</option>
+                    <option value="">-- Select an age category --</option>
+                    <option value="0-5 years">0-5 years</option>
+                    <option value="6-12 years">6-12 years</option>
+                    <option value="13-17 years">13-17 years</option>
+                    <option value="18-25 years">18-25 years</option>
+                    <option value="26-35 years">26-35 years</option>
+                    <option value="36-45 years">36-45 years</option>
+                    <option value="46-55 years">46-55 years</option>
+                    <option value="56 years and more">56 years and more</option>
                 </select>
-                <button class="remove-field">Supprimer</button>
+                <button class="remove-field">Delete</button>
             </div>
         </div>
 
         <div id="form-buttons">
-            <button id="add-text-field" type="button">Ajouter un champ de texte</button>
-            <button id="add-select-field" type="button">Ajouter un champ de sélection</button>
-            <input type="submit" value="Enregistrer">
+            <button id="add-text-field" type="button">Add a text field</button>
+            <button id="add-select-field" type="button">Add a select field</button>
+            <input type="submit" value="Register">
         </div>
 
         <table id="form-table">
             <thead>
             <tr>
-                <th>Prénom</th>
-                <th>Âge</th>
+                <th>Name</th>
+                <th>Age</th>
                 <th>Actions</th>
             </tr>
             </thead>
